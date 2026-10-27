@@ -1,52 +1,94 @@
-# 안녕하세요, NullTTa입니다 👋
+<div align="center">
 
-웹 풀스택 개발자를 목표로 하고 있습니다.
-팀 프로젝트에서 **화면 디자인과 UI**, **Spring Boot 백엔드**, **로컬 LLM 챗봇**, **결제와 일정 연동**을 직접 구현했습니다.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:2563EB&height=180&section=header&text=Hwang%20Yeongho&fontSize=44&fontColor=FFFFFF&fontAlignY=36&desc=Java%20%C2%B7%20Spring%20Boot%20Backend%20Developer&descSize=16&descAlignY=58" width="100%" alt="Hwang Yeongho" />
+
+### 화면부터 서버, 배포까지 직접 만들어 본 신입 백엔드 개발자 황영호입니다
+
+Java · Spring Boot로 API와 결제·예약 흐름을 만들고, AWS에 직접 배포해 운영 오류를 로그로 해결해 봤습니다.
+
+<a href="https://scrawny-catfish-f6c.notion.site/14f6a35562534556beb1982f741cf0be"><img src="https://img.shields.io/badge/Portfolio-Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion Portfolio" /></a>
+<a href="https://scrawny-catfish-f6c.notion.site/3ff70177d2b48016acf1f8ace589e3af"><img src="https://img.shields.io/badge/공부_기록-Notion-37352F?style=for-the-badge&logo=notion&logoColor=white" alt="Study Notes" /></a>
+
+</div>
 
 ---
 
-## 📌 대표 프로젝트
+## 📌 Projects
 
-### [EASYS](https://github.com/NullTTa/easys) — 스터디·멘토링·스트리밍 통합 학습 플랫폼
-> 팀 프로젝트 (3명) · 2026.08 ~ 2026.09 · [원본 팀 저장소](https://github.com/lj8888151214-commits/easys)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-멘토링, 스터디카페 예약, 화상 스트리밍, 캘린더, AI 챗봇을 하나로 묶은 웹 서비스입니다.
+<a href="https://github.com/NullTTa/ridefit"><img src="https://raw.githubusercontent.com/NullTTa/ridefit/main/docs/screenshots/01-home.jpg" alt="RIDEFIT" /></a>
 
-| 담당 | 내용 |
+### 🏍️ RIDEFIT
+**오토바이 부품 호환 확인 + 2D 장착 미리보기**
+
+개인 프로젝트 · 2026.09 ~ 2026.10<br/>
+기획 · 화면 · 서버 · DB · AWS 배포 전부 혼자
+
+<a href="https://ridefit.3-34-197-34.sslip.io"><img src="https://img.shields.io/badge/🟢_Live-배포_중-16A34A?style=flat-square" alt="Live" /></a>
+<a href="https://github.com/NullTTa/ridefit"><img src="https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+<a href="https://scrawny-catfish-f6c.notion.site/RIDEFIT-3ff70177d2b4803a8860f4ff7e7a0867"><img src="https://img.shields.io/badge/Docs-Notion-000000?style=flat-square&logo=notion" alt="Notion" /></a>
+
+- 차종·연식별 부품 호환 판정 API
+- Canvas 2D 입혀보기 + 결과 저장·복원
+- JWT 인증, AWS EC2 · Nginx · RDS 배포
+- 운영 DB에서만 나던 500 오류를 로그로 추적해 해결
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/NullTTa/easys"><img src="https://raw.githubusercontent.com/NullTTa/easys/main/docs/screenshots/home.png" alt="EASYS" /></a>
+
+### 📚 EASYS
+**스터디 · 멘토링 · 스트리밍 학습 플랫폼**
+
+팀 프로젝트 (3명) · 2026.08 ~ 2026.09<br/>
+멘토링 · 결제 · 캘린더 · 챗봇 · 디자인 · 배포 담당
+
+<a href="https://easys.3-34-197-34.sslip.io"><img src="https://img.shields.io/badge/🟢_Live-배포_중-16A34A?style=flat-square" alt="Live" /></a>
+<a href="https://github.com/NullTTa/easys"><img src="https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+<a href="https://scrawny-catfish-f6c.notion.site/EASYS-3ff70177d2b4805cb796cdcad9beeef8"><img src="https://img.shields.io/badge/Docs-Notion-000000?style=flat-square&logo=notion" alt="Notion" /></a>
+
+- 멘토링 신청 → 승인 → Toss 결제 → 캘린더 자동 등록
+- 결제 금액·주문자 서버 검증, 중복 승인 방지
+- 로컬 LLM(Ollama) 챗봇 + Redis 대화 기억
+- 팀원 예약 기능에 모임 캘린더 연동
+
+</td>
+</tr>
+</table>
+
+> 🔑 두 서비스 모두 실제로 배포되어 있어 바로 써 볼 수 있습니다. 테스트 계정은 각 저장소 README에 있습니다.
+
+---
+
+## 🛠 Tech Stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,tailwind,vite&theme=light" alt="frontend and backend" /><br/>
+<img src="https://skillicons.dev/icons?i=mysql,redis,aws,nginx,linux,git,github&theme=light" alt="db and infra" />
+</p>
+
+| 분야 | 사용해 본 기술 |
 |---|---|
-| 🎨 디자인·UI | 서비스 전반의 화면 디자인과 공통 UI, 메인·캘린더·멘토링·결제·챗봇 화면 구현 |
-| 🤖 AI 챗봇 | Gemini 연동 후 로컬 **Ollama `qwen2.5:3b`** 모델로 전환, 질문 의도 분류, Redis 대화 세션, 페이지 이동 액션 |
-| 📅 캘린더 연동 | 멘토링 결제 완료와 스터디카페 예약 확정 시 일정 자동 저장, 스트리밍 미니 캘린더 |
-| 🧑‍🏫 멘토링 | 멘토 등록, 신청·승인·거절·완료, TossPayments 결제 검증, STOMP 실시간 채팅과 알림 |
-
-👉 아키텍처, 기능 흐름, 트러블슈팅, 테스트 결과는 [EASYS README](https://github.com/NullTTa/easys#readme)에 정리했습니다.
-
----
-
-## 🛠 프로젝트에서 사용한 기술
-
-**Backend**
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![JPA](https://img.shields.io/badge/Spring_Data_JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-**AI · 연동 · 도구**
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket_/_STOMP-010101?style=flat-square)
-![TossPayments](https://img.shields.io/badge/TossPayments-0064FF?style=flat-square)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+| Backend | Java, Spring Boot, Spring Security, JWT, JPA |
+| Frontend | React, JavaScript, HTML/CSS, Tailwind CSS, Canvas |
+| DB | MySQL, MariaDB (AWS RDS), Redis |
+| Infra | AWS EC2, Nginx, systemd, Linux |
+| 기타 | Git/GitHub, JUnit, Swagger, Toss Payments, Ollama |
 
 ---
 
-## 📫 Contact
+## 💡 일하는 방식
 
-- GitHub: [@NullTTa](https://github.com/NullTTa)
+- **먼저 이해하고 바꿉니다.** 남이 만든 기능에 손댈 때는 데이터가 바뀌는 순서부터 따라갑니다.
+- **결과는 직접 확인합니다.** 테스트 통과만 믿지 않고 DB · 화면 · 로그로 다시 봅니다.
+- **배운 건 기록합니다.** 수업 내용과 프로젝트 과정을 노션에 정리하고 있습니다.
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:1E293B&height=90&section=footer" width="100%" alt="" />
+
+</div>
